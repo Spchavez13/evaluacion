@@ -1,6 +1,7 @@
 import math
  
 def menu():
+    
     print("1. Sumar")
     print("2. Restar")
     print("3. Multiplicar")
@@ -10,7 +11,10 @@ def menu():
     print("7. Seno")
     print("8. Coseno")
     print("9. Tangente")
-    return int(input("Seleccione una opción de la operacion que dese realiar: "))
+    print("10. exit")
+    
+    opcion = int(input("Seleccione una opción de la operacion que dese realiar: "))
+    return opcion
 
 #"Se agregan todas las opciones matematicas"
 
@@ -40,9 +44,72 @@ def coseno(a):
  
 def tangente(a):
     return math.tan(a)
- 
 
-opcion = menu()
-a= float(input("ingrese el primer numero: "))
-b= float(input("Ingrese un segundo nundo numero:  "))
+while True:
+    opcion = menu()
+    if opcion == 1:
+ 
+        a= float(input("ingrese el primer numero: "))
+        b= float(input("Ingrese un segundo nundo numero:  "))
+        resultado = sumar(a,b)
+        print ("resultado",resultado)
+
+    elif opcion == 2:
+        a= float(input("ingrese el primer numero: "))
+        b= float(input("Ingrese un segundo nundo numero:  "))
+        resultado = sumar(a,b)
+        print ("resultado",resultado)
+
+
+    elif opcion == 3:
+        a= float(input("ingrese el primer numero: "))
+        b= float(input("Ingrese un segundo nundo numero:  "))
+        resultado = sumar(a,b)
+        print ("resultado",resultado)
+
+
+    elif opcion == 4:
+        a= float(input("ingrese el primer numero: "))
+        b= float(input("Ingrese un segundo nundo numero:  "))
+        resultado = sumar(a,b)
+        print ("resultado",resultado)
+
+
+    elif opcion == 5:
+        a= float(input("ingrese el primer numero: "))
+        b= float(input("Ingrese un segundo nundo numero:  "))
+        resultado = sumar(a,b)
+        print ("resultado",resultado)
+    
+    elif opcion == 6:
+        a= float(input("ingrese el primer numero: "))
+        b= float(input("Ingrese un segundo nundo numero:  "))
+        resultado = sumar(a,b)
+        print ("resultado",resultado)
+
+
+    elif opcion == 7:
+        a= float(input("ingrese el primer numero: "))
+        b= float(input("Ingrese un segundo nundo numero:  "))
+        resultado = sumar(a,b)
+        print ("resultado",resultado)
+
+
+    elif opcion == 8:
+        a= float(input("ingrese el primer numero: "))
+        b= float(input("Ingrese un segundo nundo numero:  "))
+        resultado = sumar(a,b)
+        print ("resultado",resultado)
+
+
+    elif opcion == 9:
+        a= float(input("ingrese el primer numero: "))
+        b= float(input("Ingrese un segundo nundo numero:  "))
+        resultado = sumar(a,b)
+        print ("resultado",resultado)
+
+
+    elif opcion == 10:
+        break
+
 
