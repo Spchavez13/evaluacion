@@ -51,61 +51,61 @@ while True:
  
         a= float(input("ingrese el primer numero: "))
         b= float(input("Ingrese un segundo nundo numero:  "))
-        resultado = sumar(a,b)
+        resultado =sumar(a,b)
         print ("resultado",resultado)
 
     elif opcion == 2:
         a= float(input("ingrese el primer numero: "))
         b= float(input("Ingrese un segundo nundo numero:  "))
-        resultado = sumar(a,b)
+        resultado = restar(a,b)
         print ("resultado",resultado)
 
 
     elif opcion == 3:
         a= float(input("ingrese el primer numero: "))
         b= float(input("Ingrese un segundo nundo numero:  "))
-        resultado = sumar(a,b)
+        resultado = multiplicar(a,b)
         print ("resultado",resultado)
 
 
     elif opcion == 4:
         a= float(input("ingrese el primer numero: "))
         b= float(input("Ingrese un segundo nundo numero:  "))
-        resultado = sumar(a,b)
+        resultado = dividir(a,b)
         print ("resultado",resultado)
 
 
     elif opcion == 5:
         a= float(input("ingrese el primer numero: "))
         b= float(input("Ingrese un segundo nundo numero:  "))
-        resultado = sumar(a,b)
+        resultado = raiz_n(a,b)
         print ("resultado",resultado)
     
     elif opcion == 6:
         a= float(input("ingrese el primer numero: "))
         b= float(input("Ingrese un segundo nundo numero:  "))
-        resultado = sumar(a,b)
+        resultado = exponente_n(a,b)
         print ("resultado",resultado)
 
 
     elif opcion == 7:
         a= float(input("ingrese el primer numero: "))
         b= float(input("Ingrese un segundo nundo numero:  "))
-        resultado = sumar(a,b)
+        resultado = seno(a,b)
         print ("resultado",resultado)
 
 
     elif opcion == 8:
         a= float(input("ingrese el primer numero: "))
         b= float(input("Ingrese un segundo nundo numero:  "))
-        resultado = sumar(a,b)
+        resultado = coseno(a,b)
         print ("resultado",resultado)
 
 
     elif opcion == 9:
         a= float(input("ingrese el primer numero: "))
         b= float(input("Ingrese un segundo nundo numero:  "))
-        resultado = sumar(a,b)
+        resultado = tangente(a,b)
         print ("resultado",resultado)
 
 
