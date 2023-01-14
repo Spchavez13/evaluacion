@@ -14,3 +14,4 @@ def menu():
 
 opcion = menu()
 a= float(input("ingrese el primer numero: "))
+b= float(input("Ingrese un segundo nundo numero:  "))
